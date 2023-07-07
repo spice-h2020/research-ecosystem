@@ -4,6 +4,7 @@
 	- module: schema
 - LDH-portal
 	- LDH-portal
+ 	- module: core	
 	- module: datasets
 	- module: files
 	- module: keys
@@ -11,11 +12,15 @@
 	- module: sparql
 	- module: stream
 	- module: policies
-- LDH Addons
+- LDH Addons/Extras
 	- RDF Replicator
 	- Content monitoring
+ 	- License importers (DALICC)
+  	- Docker deployment container(s)
+  	- Data import/export tools and scripts
 - LDH Datasets
 	- IMMA Deep Viewpoints
+ 	- Full list here: https://github.com/spice-h2020/ldh-datasets/blob/master/datasets.tsv  
 - Pilots
 	- IMMA Viewpoints
 	- IMMA Deep Viewpoints
